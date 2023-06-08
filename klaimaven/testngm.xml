@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="data.d1"/>
+      <class name="mouse.mouse"/>
+      <class name="example.d4"/>
+      <class name="testng_wait.imple"/>
+      <class name="example.alert"/>
+      <class name="anotaion.ass"/>
+      <class name="testng_wait.d3"/>
+      <class name="testng_wait.expl2"/>
+      <class name="assertion.d3"/>
+      <class name="assertion.a1"/>
+      <class name="alertmessage.back_forwared"/>
+      <class name="testng_wait.explewait"/>
+      <class name="data.dataprovider"/>
+      <class name="anotaion.d1"/>
+      <class name="klaimaven.intro"/>
+      <class name="alertmessage.page_load_time"/>
+      <class name="testng_wait.class3"/>
+      <class name="data.data2"/>
+      <class name="alertmessage.d1"/>
+      <class name="date.d1"/>
+      <class name="testng_wait.imple1"/>
+      <class name="data.k2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
