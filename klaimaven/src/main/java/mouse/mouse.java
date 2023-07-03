@@ -23,11 +23,11 @@ public class mouse {
 		
 		//d1.contextClick(ele).build().perform();
 		
-		//d1.moveToElement(ele).click().build().perform();
+		d1.moveToElement(ele).click().build().perform();
 		
-		d1.clickAndHold(ele).build().perform();
-		Thread.sleep(3000);
-		d1.release(ele).build().perform();
+//		d1.clickAndHold(ele).build().perform();
+//		Thread.sleep(3000);
+//		d1.release(ele).build().perform();
 		
 		
 		

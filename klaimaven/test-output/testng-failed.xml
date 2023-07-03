@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng_attributtes.depends">
+      <class name="alertmessage.back_forwared">
         <methods>
-          <include name="home"/>
-          <include name="pass"/>
-          <include name="usern"/>
+          <include name="main"/>
         </methods>
-      </class> <!-- testng_attributtes.depends -->
+      </class> <!-- alertmessage.back_forwared -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

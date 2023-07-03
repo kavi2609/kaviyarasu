@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="alertmessage.page_load_time">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- alertmessage.page_load_time -->
+      <class name="klaimaven.intro">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- klaimaven.intro -->
+      <class name="data.k2">
+        <methods>
+          <include name="DataProSampleTest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- data.k2 -->
+      <class name="data.dataprovider">
+        <methods>
+          <include name="DataProvSampleTest" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- data.dataprovider -->
+      <class name="data.data2">
+        <methods>
+          <include name="DataProvSampleTest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- data.data2 -->
+      <class name="alertmessage.d1">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- alertmessage.d1 -->
+      <class name="anotaion.d1">
+        <methods>
+          <include name="test2"/>
+          <include name="bc"/>
+          <include name="bm"/>
+          <include name="bt"/>
+          <include name="ac"/>
+          <include name="test1"/>
+          <include name="aft"/>
+          <include name="am"/>
+        </methods>
+      </class> <!-- anotaion.d1 -->
+      <class name="testng_wait.explewait">
+        <methods>
+          <include name="t1"/>
+        </methods>
+      </class> <!-- testng_wait.explewait -->
+      <class name="testng_wait.imple1">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- testng_wait.imple1 -->
+      <class name="testng_wait.class3">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- testng_wait.class3 -->
+      <class name="alertmessage.back_forwared">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- alertmessage.back_forwared -->
+      <class name="date.d1">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- date.d1 -->
+      <class name="anotaion.ass">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- anotaion.ass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
